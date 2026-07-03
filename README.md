@@ -9,14 +9,14 @@ I'm a student learning math and programming, and this repo is where I implement 
 | `enumerative`     | Permutations, combinations, partitions, special numbers, tableaux |
 | `graph_theory`    | Trees, matchings, colorings, Ramsey theory, network flows         |
 | `design_theory`   | BIBDs, projective planes, Latin squares, Sudoku                   |
+| `posets`          | Lattices, Dilworth's theorem, order ideals                        |
 
 ### How I'm writing things
 
 - One file per concept — `permutations.py` has permutation stuff, `primes.py` has prime stuff.
 - Generators for combinatorial generation (lazy, saves memory).
 - I try to keep it dependency-free where I can, but I'll use `sympy` or `numpy` when it makes life easier.
-- Tests go in `tests/` following the same folder structure.
 
-## License
+> All commit messages in this repo are AI-generated.
 
-See [LICENSE](LICENSE).
+License: MIT — see [LICENSE](LICENSE).
